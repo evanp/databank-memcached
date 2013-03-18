@@ -1,19 +1,19 @@
 {
     "name": "databank-memcached",
-    "version": "0.14.1",
+    "version": "0.15.0",
     "engines": { "node": ">=0.6.x" },
-    "author": "Evan Prodromou <evan@status.net>",
+    "author": "Evan Prodromou <evan@e14n.com>",
     "scripts": {"test": "vows test/*-test.js"},
     "main": "./lib/memcached.js",
     "directories": {"lib": "./lib/"},
     "description": "Memcached and Couchbase driver for Databank",
     "dependencies": {
-        "memcached": "0.1.x", 
-        "databank": "0.16.x",
+        "memcached": "0.2.x",
+        "databank": "0.18.x",
         "step": "0.0.x"
     },
     "devDependencies": {
-        "vows": "0.6.x" 
+        "vows": "0.7.x"
     },
     "licenses": [
         {
@@ -32,10 +32,10 @@
         "cache", 
         "nosql" 
      ],
-    "homepage": "http://github.com/evanp/databank-memcached",
+    "homepage": "http://github.com/e14n/databank-memcached",
     "bugs": {
-       "web": "http://github.com/evanp/databank-memcached/issues"
+       "web": "http://github.com/e14n/databank-memcached/issues"
     },
     "repository": { "type":  "git",
-                    "url":   "http://github.com/evanp/databank-memcached.git" }
+                    "url":   "http://github.com/e14n/databank-memcached.git" }
 }
